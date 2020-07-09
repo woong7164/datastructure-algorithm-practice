@@ -1,30 +1,33 @@
 package main;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class ThreeNumbers {
+public class ThreeNumbersSort {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
-		
-		
-	    if (a > b)
-	    {
-	        if (a < c)  System.out.println(a);
-	        if (b > c)  System.out.println(b);
-	         System.out.println(c);
-	    }
-	    else
-	    {
-	        if (b < c)  System.out.println(b);
-	        if (a > c)  System.out.println(a);
-	         System.out.println(c);
-	    } 
+		int[] num = new int[3];
+		for (int i = 0; i < num.length; i++) {
+			num[i] = sc.nextInt();
+		}
+
+		//bubble sort
+//	    for(int i=0;i<num.length - 1;i++){
+//	    	for(int j = 1;j<num.length-i;j++){
+//		    	if(num[j-1] > num[j]){
+//		    		int temp = num[j];
+//		    		num[j] = num[j-1];
+//		    		num[j-1] = temp ;
+//		    	}
+//	    	}
+//
+//		   
+//	    }
 	    
+	    Arrays.sort(num);
+    
+	    System.out.println(num[1]);
 	}
 }
 
