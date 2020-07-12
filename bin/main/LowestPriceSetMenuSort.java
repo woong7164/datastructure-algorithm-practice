@@ -3,7 +3,7 @@ package main;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class LowestPriceSetMenuMin {
+public class LowestPriceSetMenuSort {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -29,3 +29,4 @@ public class LowestPriceSetMenuMin {
 
 	}
 }
+

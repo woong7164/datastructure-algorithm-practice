@@ -2,7 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-public class LowestPriceSetMenuSort {
+public class LowestPriceSetMenuMin {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -22,4 +22,3 @@ public class LowestPriceSetMenuSort {
 
 	}
 }
-
