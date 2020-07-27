@@ -1,4 +1,5 @@
 // you can also use imports, for example:
+//https://app.codility.com/demo/results/trainingCW73PM-VD3/
  import java.util.*;
 
 // you can write to stdout for debugging purposes, e.g.
