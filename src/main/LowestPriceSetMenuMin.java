@@ -1,7 +1,7 @@
 package main;
 
 import java.util.Scanner;
-
+//백준 https://www.acmicpc.net/problem/5543
 public class LowestPriceSetMenuMin {
 	public static void main(String[] args) {
 		

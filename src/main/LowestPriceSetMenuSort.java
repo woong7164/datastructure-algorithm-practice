@@ -2,7 +2,7 @@ package main;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+// 백준 https://www.acmicpc.net/problem/5543
 public class LowestPriceSetMenuSort {
 	public static void main(String[] args) {
 		
