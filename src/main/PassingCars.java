@@ -1,6 +1,7 @@
 package main;
 import java.util.*;
 //https://app.codility.com/demo/results/training4MP7HQ-HRK/?showingAll=1
+//https://app.codility.com/demo/results/trainingHJDVDC-SPR/
 //수식을 사용해서 시간복잡도 줄이
 //여기서 서로 교차하는 차의 수는 0 이후에 1이 나올 경우 혹은 1 왼쪽의 0의 갯수를 모두 세는 알고리즘을 짜야한다. 
 //문제를 O(N)으로 풀기 위해서 0의 갯수를 세는 zeroCnt 가 있고 1이 나올때마다 1의 왼쪽에 있는 0 의 총갯수를 zeroCntSum 해주었다.
