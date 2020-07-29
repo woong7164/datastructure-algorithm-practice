@@ -64,4 +64,27 @@ public class PassingCars {
 
         return zeroCntSum;
 	}
+	
+	//A 배열의 합은 1의 갯수가 될 테고, 서쪽으로 가는 차의 대수가 나올거다. 아마도
+	//그 합을 가지고 있다가 A 배열의 반복문을 돌면서 A배열에서 동쪽으로 가는 차가 나올 경우 
+	//그 차보다 오른쪽에 있는 서쪽으로 가는 차의 대수를 모두 sum에 더한다.
+	//그 과정에서 서쪽으로 가는 차가 나오는 경우 서쪽으로 가는 차의 대수를 하나씩 빼 줌.
+    public int solution3(int[] A) {
+        int sum = 0;
+        int countOne = 0;
+        for(int i=0; i<A.length; i++) {
+            countOne+=A[i];
+        }
+        for(int i=0; i<A.length; i++) {
+            if(A[i] == 0) {
+                sum += countOne;
+                if(1000000000 < sum) {
+                    return -1;
+                }
+            } else {
+                countOne--;
+            }
+        }
+        return sum;
+    }
 }
