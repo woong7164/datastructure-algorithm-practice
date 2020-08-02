@@ -1,7 +1,7 @@
 package main;
 import java.util.*;
 //https://app.codility.com/demo/results/training4GGNUD-6CT/
-public class getDivisions {
+public class CountFactors {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
